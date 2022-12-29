@@ -11,7 +11,7 @@ body {
 }
 
 .App header {
-  background-color: #181717;
+  background-color: #000000;
   height: 7vh;
   min-height: 50px;
   color: white;
@@ -34,8 +34,14 @@ body {
   justify-content: center;
   height: 90vh;
   margin-top: 8vh;
-  background-color: rgb(40, 37, 53);
+  background-color: #0e1c29;
   border-radius: 0px 0px 10px 10px;
+}
+
+header button {
+  font-size: 1rem;
+  padding: 2%;
+  border-radius: 7px;
 }
 
 main {
@@ -74,7 +80,7 @@ form {
 
 form button {
   width: 20%;
-  background-color: rgb(56, 56, 143);
+  background-color: rgb(29, 73, 139);
   border-radius: 0px 0px 10px 0px;
 }
 
@@ -90,11 +96,6 @@ input {
   border-radius: 0px 0px 0px 10px;
 }
 
-header button {
-  font-size: 1rem;
-  padding: 1.5%;
-  border-radius: 7px;
-}
 
 button {
   background-color: #282c34; /* Green */
@@ -149,12 +150,12 @@ p {
 }
 
 .sent p {
-  color: white;
-  background: #0b93f6;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(90deg, rgba(147, 204, 234, 1) -40%, rgba(74, 143, 231, 1) 60%);
   align-self: flex-end;
 }
 .received p {
-  background: #e5e5ea;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 1) -20%, rgba(170, 170, 170, 1) 80%);;
   color: black;
 }
 
